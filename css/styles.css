@@ -1,0 +1,121 @@
+/* Font Style */
+.card-title,a,b,h2,h3,h4{
+    justify-content: center;
+    font-family: 'East Sea Dokdo', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.a1{
+    color: black;
+    text-decoration: none;
+}
+.ul1{
+    list-style: none;
+    margin: 0px auto;
+    padding-left: 0px;
+    color: black;
+}
+
+/* Horizontal Line */
+.hr0{
+    margin: 0;
+    opacity: 1;
+    background-color: transparent;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+
+/* Home Page */
+.nav-link{
+    padding: 0px 20px;
+}
+
+/* -- Part-01 -- */
+.home-page{
+    display: flex;
+}
+.hp-img{
+    padding: 5px 15px;
+    display: inline-block;
+    width: 20%;
+    text-align: end;
+    margin: auto;
+}
+.hp-text{
+    margin: auto;
+    display: inline-block;
+    width: 60%;
+}
+.hp-date{
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+}
+.date,.time{
+    margin: 0px auto;
+}
+@media screen and (max-width: 992px) {
+    .hp-date{
+      flex-direction: column;
+    }
+}
+
+/* -- Part-02 -- */
+.News-Cards{
+    padding: 40px;
+    margin: 0px auto;
+    text-align: center;
+}
+.newslink{
+    margin: 20px auto;
+}
+
+/* -- Part-03 -- */
+.home-page-p3{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.p-32{
+    width:50%
+}
+.p-33{
+    width:20%
+}
+.p-31,.p-32,.p-33{
+    display: inline-block;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* -- Part-04 -- */
+.footer{
+    text-align: center;
+    padding: 10px;
+    line-height: 25px;
+    background-color: whitesmoke;
+}
+/* -- End of Home Page -- */
+
+/* News Pages */
+.middle-container{
+    background-color: whitesmoke;
+    margin: 0px auto;
+    padding: 10px 30px;
+    text-align: center;
+}
+.news-img{
+    max-width: 100%;
+    height: auto;
+}
+.middle-container-news{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 30px;
+    text-align: justify;
+}
