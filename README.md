@@ -3,8 +3,7 @@
 
 <h3> Hello 👋  !! </h3>
 
-In this project I have create a Dummy News Website called *The Daily Bugle*. I have created this website using HTML5, CSS3, Bootstrap and Javascript.This project is both web friendly and mobile friendly.
-
+In this project I have created a Dummy News Website called *The Daily Bugle*. I have created this website using HTML5, CSS3, Bootstrap and Javascript.This project is both web friendly and mobile friendly.
 <hr>
 
 Preformance Meteric of this Website: <br>
