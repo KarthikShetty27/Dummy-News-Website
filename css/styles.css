@@ -16,6 +16,9 @@ p{
     padding-left: 0px;
     color: black;
 }
+.brand{
+    font-family: 'Merriweather', serif;
+}
 
 /* Horizontal Line */
 .hr0{
@@ -63,34 +66,67 @@ p{
 }
 
 /* -- Part-02 -- */
-.News-Cards{
-    padding: 40px;
-    margin: 0px auto;
+.home-page-p2{
+    display: flex;
     text-align: center;
+    margin: 30px auto;
+}
+.r1,.r2{
+    display: inline-block;
+    font-size: large;
+    margin: 0px auto;
+    width: 32rem;
 }
 .newslink{
-    margin: 20px auto;
+    margin: 15px 5px;
+    text-align: center;
 }
 
+
 /* -- Part-03 -- */
-.home-page-p3{
+/* For largeScreen */
+.largeScreen{
     padding: 20px;
     text-align: center;
     display: flex;
     margin: 0 auto;
     background-color: aliceblue;
 }
-.p-32{
+.p-ls-32{
     width:50%
 }
-.p-33{
+.p-ls-33{
     width:20%
 }
-.p-31,.p-32,.p-33{
+.p-ls-31,.p-ls-32,.p-ls-33{
     display: inline-block;
     padding: 15px;
     margin: 0 auto;
 }
+@media screen and (width <= 992px) {
+    .largeScreen{
+        display: none;
+    }
+}
+
+/* For smallScreen */
+.smallScreen{
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.p-ss-31-33,.p-ss-32{
+    padding: 15px;
+}
+
+@media screen and (width > 992px) {
+    .smallScreen{
+        display: none;
+    }
+}
+
 
 /* -- Part-04 -- */
 .footer{
