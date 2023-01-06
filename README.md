@@ -1,9 +1,14 @@
-# Hello !!
+## Link to Project: [The Daily Bugle](https://karthikshetty27.github.io/The-Daily-Bugle-Dummy-News-Website/)
 
 
-## Welcome to my Dummy News Website called ***Daily Bugle***
+<h3> Hello 👋  !! </h3>
 
+In this project I have create a Dummy News Website called *The Daily Bugle*. I have created this website using HTML5, CSS3, Bootstrap and Javascript.This project is both web friendly and mobile friendly.
 
-Link to site:
+<hr>
 
-[The Daily Bugle](https://karthikshetty27.github.io/Dummy-News-Website/)
+Preformance Meteric of this Website: <br>
+<p align="center"> 
+  <img src="Readme-Images/performance.jpg" />
+</p>
+<hr>
