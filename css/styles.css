@@ -84,7 +84,9 @@ p{
     margin: 15px 5px;
     text-align: center;
 }
-
+.card-img-top{
+    object-fit: contain;
+}
 
 /* -- Part-03 -- */
 /* For largeScreen */
